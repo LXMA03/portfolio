@@ -5,7 +5,7 @@ const projects = [
         id:1,
         title: "Aurora Home Page",
         description: "Home page of a social media platform using React and CSS.",
-        image: "/projects/project1.png",
+        image: "./projects/project1.png",
         tags: ["React", "TypeScript", "Prisma"],
         demoUrl: "#", // keep or delete?
         githubUrl: "https://github.com/LXMA03/Aurora",
@@ -15,7 +15,7 @@ const projects = [
         id:2,
         title: "EduTrack Home Page",
         description: "A mobile app that helps students manage their screen time efficiently.",
-        image: "/projects/project2.png",
+        image: "./projects/project2.png",
         tags: ["XCode", "Swift"],
         demoUrl: "#", // keep or delete?
         githubUrl: "https://github.com/LXMA03/EduTrack"
