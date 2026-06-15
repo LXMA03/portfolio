@@ -8,12 +8,12 @@ function App() {
   return (
     <>
       <Toaster />
-      <HashRouter>
+      <BrowserRouter>
       <Routes>
         <Route index element={<Home />} />
         <Route path="*" element={<NotFound />} />   {/** Any route that hasn't been defined, default to this page */}
       </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   )
 }
