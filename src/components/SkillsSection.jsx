@@ -20,9 +20,15 @@ const skills = [
     {name: "Git/GitHub", level: 85, category: "tools"},
     {name: "VS Code", level: 90, category: "tools"},
     {name: "Figma", level: 70, category: "tools"},
+
+    // Soft Skills
+    {name: "Communication", level: 90, category: "soft skills"},
+    {name: "Teamwork", level: 90, category: "soft skills"},
+    {name: "Time Management", level: 85, category: "soft skills"},
+    {name: "Leadership", level: 85, category: "soft skills"},
 ]
 
-const categories = ["all", "frontend", "backend", "tools"]
+const categories = ["all", "frontend", "backend", "tools", "soft skills"]
 
 export const SkillsSection = () => {
     const [activeCategory, setActiveCategory] = useState("all")
@@ -41,8 +47,7 @@ export const SkillsSection = () => {
                         <button 
                             key={key} 
                             className={cn("px-5 py-2 rounded-full transition-colors duration-300 capitalize",
-                                activeCategory === category ? "bg-primary text-primary-foreground" : "bg-secondary/70 text-foreground hover:bg-secondary"
-                             )}
+                                activeCategory === category ? "bg-primary text-primary-foreground" : "bg-secondary/70 text-foreground hover:bg-secondary")}
                             onClick={() => setActiveCategory(category)}> 
                             {category} 
                         </button>

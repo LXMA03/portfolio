@@ -15,11 +15,14 @@ export const AboutSection = () => {
                     <h3 className="text-2xl font-semibold"> Aspiring Web Developer </h3>
 
                     <p className="text-muted-foreground">
-                        My experience, what I specialize in, technologies I know etc.
+                        With a little over 2 years of experience in web development, I focus on creating responsive, accessible, and 
+                        performant web applications using modern technologies.
                     </p>
 
                     <p className="text-muted-foreground">
-                        What I'm passionate about, etc
+                        I'm passionate about creating elegant solutions to complex problems, and building web applications that focuses on
+                        enhancing the user's experience. I'm constantly learning new technologies and techniques to stay at the forefront of the 
+                        ever-evoling web landscape.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -28,7 +31,9 @@ export const AboutSection = () => {
                         </a>
 
                         {/** Add download link to resume */}
-                        <a href="" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"> 
+                        <a href="https://docs.google.com/document/d/1zgrshYVO_I0UDaEqkqJy2Pj27vCVbFjA/edit?usp=drive_link&ouid=115366382486607233709&rtpof=true&sd=true"
+                            target="_blank"
+                            className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"> 
                             Download Resume
                         </a>
                     </div>
@@ -76,7 +81,7 @@ export const AboutSection = () => {
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg"> Project Management </h4>
                                 <p className="text-muted-foreground">
-                                   Some description 
+                                   Leading projects from conception to completion with agile methodologies. 
                                 </p>
                             </div>
                         </div>
