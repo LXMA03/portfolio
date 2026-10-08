@@ -1,16 +1,13 @@
-# React + Vite
+# Welcome to my portfolio page!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was built using React + Vite to showcase some academic projects I've worked on over the years along with the skills I have developed. I decided to make this portfolio as a small
+side project to strengthen my web development skills and to have a nice place to display everything in one place. 
 
-Currently, two official plugins are available:
+# Deployment
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is deployed using Vercel and you can access the website using this link: https://portfolio-seven-dusky-73.vercel.app/ 
 
-## React Compiler
+# Important Notes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+If you do decide to replicate this code, note that the messaging system does not actually send any messages/ emails, but instead it uses a toaster to display a "message sent" 
+notification on screen. If you want to be able to send a receive actual messages, you will need to implement some kind of emailing API.
